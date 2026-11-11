@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://the-neural-stream.pages.dev';
+const DOMAIN = 'https://the-neural-stream.pageaura.xyz';
 const KEY = '77471cf203a643a0a4114c8f2160246e';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'the-neural-stream.pages.dev' ||
+    url.hostname.toLowerCase() !== 'the-neural-stream.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
