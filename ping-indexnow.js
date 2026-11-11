@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'the-neural-stream.pages.dev';
+const HOST = 'the-neural-stream.pageaura.xyz';
 const KEY = '77471cf203a643a0a4114c8f2160246e';
-const KEY_LOCATION = `https://the-neural-stream.pages.dev/77471cf203a643a0a4114c8f2160246e.txt`;
+const KEY_LOCATION = `https://the-neural-stream.pageaura.xyz/77471cf203a643a0a4114c8f2160246e.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
